@@ -1,0 +1,7 @@
+# 复制本文件为 db.properties 后按本机 MySQL 实际情况修改。
+# db.properties 已在 .gitignore 中忽略，不会把密码提交到仓库。
+# 若 classpath 下没有 db.properties，DbUtil 会自动回退读取本文件（本地开发默认值）。
+jdbc.driver=com.mysql.cj.jdbc.Driver
+jdbc.url=jdbc:mysql://localhost:3306/library_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+jdbc.user=root
+jdbc.password=root
